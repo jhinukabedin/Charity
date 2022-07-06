@@ -2,6 +2,129 @@
     margin:0;
     padding: 0;
 }
-.header-area{
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-area {
     background-image: url(images/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+.section-title {
+    font-size: 45px;
+}
+
+.header-area .section-title {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.section-desc {
+    width: 600px;
+    margin: 0 auto 40px;
+}
+.header-area .section-desc {
+    color: #dfdfdf;
+}
+.my-button {
+    margin: 30px 0;
+}
+a.donate-btn {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(59, 185, 8);
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 4px 1px #4c445b;
+}
+
+
+
+/*================================ Donate Today =================================*/
+.amount-box {
+    display: flex;
+}
+
+.amount-item {
+    width: 25%;
+    border: 3px solid #b9b9b9;
+    margin: 10px;
+    padding: 45px;
+    border-radius: 9px;
+    cursor: pointer;
+    color:#707070;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.amount-item:active, .amount-item:hover {
+    color: #FF5959;
+    border: 3px solid #FF5959;
+}
+input.other-amount {
+    border-bottom: 2px solid #b9b9b9 !important;
+    width: 1080px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    border: none;
+    font-size: 20px;
+    font-family: unset;    
+    margin-bottom: 40px;
+}
+input.other-amount:focus {
+    outline: none;
+}
+a.amount-submit-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FF5959;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #fff;;
+}
+.info-box-area {
+    display: flex;
+    margin: 0;
+}
+
+.info-box {
+    background: red;
+    padding: 65px 25px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.info-box:last-child {
+    margin-right: 0;
+}
+.info-box-1 {
+    background-color: #EDF5F6;
+}
+
+.info-box-2 {
+    background-color: #FFEEEE;
+}
+.info-box-3 {
+    background-color: #FFF4D6;
+}
+.team-member {
+    display: flex;
+}
+
+.member-info {
+    width: 100%;
 }
